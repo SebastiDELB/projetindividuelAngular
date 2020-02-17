@@ -1,0 +1,44 @@
+{
+  "name": "projetindividuelangular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Pokemon.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastiDELB/projetindividuelAngular.git"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebastiDELB/projetindividuelAngular/issues"
+  },
+  "homepage": "https://github.com/SebastiDELB/projetindividuelAngular#readme",
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "@types/node": "^13.7.1",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.0",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  }
+}
